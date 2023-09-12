@@ -7,5 +7,5 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return list1[n::-1]
-print(main("1234567",3))
+    return list1[:n-1:-1]
+print(main("1234567890",3))
